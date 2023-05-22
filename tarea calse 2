@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+    <h1>Formulario
+
+    </h1>
+    <form action="">
+        <label for="fnombre">Nombre</label>
+    <input type="text" id="fnombre" name="fnombre:"> <br> <br>
+    <label for="fapellido">Apellido</label>
+    <input type="text" id="fapellido" name="fapellido:"> <br> <br>
+    <label for="Fecha de nacimiento">Fecha de nacimiento</label>
+    <input type="date"> <br> <br>
+    <label for="Mail">Mail</label>
+    <input type="text" id="Mail" name="Mail"> <br> <br>
+    <h3> Usted trabaja?</h3>
+    <label for="SI">Si</label>
+    <input type="checkbox" name="SI"> 
+    <label for="NO">No</label>
+    <input type="checkbox" name="NO"> <br><br>
+    <label for="Pais"> Seleccione Pais de residencia</label> <br> <br> 
+    <select name="Pais"> 
+        <option value="">Argentina</option> 
+        <option value="">Uruguay</option> 
+        <option value="">Colombia</option>
+        <option value="">Mexico</option>
+        <label for="enviar">enviar</label> <br> <br>
+        <input type="submit" id="enviar" name="enviar"> <br> <br>
+
+
+    </form>
+</html>
