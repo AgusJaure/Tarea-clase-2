@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
-<body>
     <h1>Formulario
 
     </h1>
@@ -22,7 +21,7 @@
     <h3> Usted trabaja?</h3>
     <label for="SI">Si</label>
     <input type="checkbox" name="SI"> 
-    <label for="NO">NO</label>
+    <label for="NO">No</label>
     <input type="checkbox" name="NO"> <br><br>
     <label for="Pais"> Seleccione Pais de residencia</label> <br> <br> 
     <select name="Pais"> 
@@ -35,6 +34,4 @@
 
 
     </form>
-
-</body>
 </html>
